@@ -5,4 +5,4 @@
 layout: home
 ---
 
-<iframe src="potree/examples/satellite_mesh.html" width="100%" height="500px" style="display: block;"></iframe>
+<iframe src="potree/examples/satellite_mesh_obj_ply.html" width="100%" height="500px" style="display: block;"></iframe>
