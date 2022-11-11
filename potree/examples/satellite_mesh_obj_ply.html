@@ -87,13 +87,6 @@
 			};
 			let onError = function ( xhr ) {};
 
-			// const texture = new THREE.TextureLoader().load(`${Potree.resourcePath}/textures/brick_pavement.jpg`);
-			const texture = new THREE.TextureLoader().load(`${Potree.resourcePath}/models/mesh_site_3_gdmr_textured/textured_material0000_map_Kd.png`);
-
-			texture.wrapS = THREE.RepeatWrapping;
-			texture.wrapT = THREE.RepeatWrapping;
-
-
 			// let loader = new OBJLoader( manager );
 			// loader.load(`${Potree.resourcePath}/models/mesh_site_3_gdmr_textured/textured.obj`, function ( object ) {
 			// 	object.position.set(589871.587, 231528.213, 725.634);
@@ -116,6 +109,7 @@
 			let model_obj_mtl_dp = `${Potree.resourcePath}/models/${model_dn}/`;
 
 			// Option 1: Load OBJ / MTL files (best results, but higher file size)
+
 			// let mtl_loader = new MTLLoader();
 			// mtl_loader.setPath(model_obj_mtl_dp);
 			// mtl_loader.load(
