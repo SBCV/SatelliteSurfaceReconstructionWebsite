@@ -42,7 +42,8 @@ theme: minima
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - "potree/**/*.md"
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
