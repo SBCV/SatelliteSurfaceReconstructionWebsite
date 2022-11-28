@@ -5,8 +5,18 @@
 layout: home
 ---
 
-Project page of the [Satellite Surface Reconstruction](https://github.com/SBCV/SatelliteSurfaceReconstruction) pipeline.
+<!--
+Create the build directory of potree:
+    cd potree_dp && npm start
+Copy potree_dp (including the build directory) to github_io_dp such that:
+    github_io_dp
+        ...
+        potree
+        ...
+        _config.yml
+-->
 
+Project page of the [Satellite Surface Reconstruction](https://github.com/SBCV/SatelliteSurfaceReconstruction) pipeline.
 
 ### Example satellite surface reconstruction of a site in the IARPA MVS3DM dataset:
 (Loading the model might take a while - be patient!)
